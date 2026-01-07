@@ -84,3 +84,26 @@ Validación del estado de las cuentas creadas
 
 Lab basado en la guía oficial de Microsoft MD-102:
 https://github.com/MicrosoftLearning/MD-102T00-Microsoft-365-Endpoint-Administrator
+
+
+
+## 📸 Evidencias
+
+### Acceso y vista general de usuarios
+![Users overview](screenshots/01-entra-users-overview.png)
+
+### Creación de usuario – Edmund Reeve
+![Create user Edmund](screenshots/02-create-user-edmund-basic-info.png)
+![Edmund properties](screenshots/03-create-user-edmund-properties.png)
+![Edmund assignments](screenshots/04-create-user-edmund-assignments.png)
+![Review Edmund](screenshots/05-review-create-edmund.png)
+
+### Creación de usuario – Miranda Snider
+![Review Miranda](screenshots/06-create-user-miranda-review.png)
+
+### Verificación final
+![Users list](screenshots/07-users-list-after-creation.png)
+
+### Preparación del entorno PowerShell
+![PowerShell version](screenshots/08-powershell-version.png)
+
