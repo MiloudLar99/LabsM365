@@ -33,8 +33,10 @@ Usage location : United States
 
 Aucune affectation de groupes ou rôles
 (Configuration par défaut)
+
 ![Menu Utilisateurs - Tous les utilisateurs](screenshots/Info-Ereeve.png)
 ![Menu Utilisateurs - Tous les utilisateurs](screenshots/Prop-Ereeve.png)
+
 Vérification et validation de la création
 (Captura de la verificacion de la creacion de los usuarios)
 
