@@ -31,3 +31,23 @@ Configurer la synchronisation d’annuaire entre Active Directory on-premises et
 5. Filtrage des domaines et PU
 6. Finalisation
 
+## Task 2 – Vérification de la synchronisation dans Microsoft Entra ID
+
+🎯 Objectif
+
+Vérifier que les utilisateurs et groupes Active Directory on-premises sont correctement synchronisés vers Microsoft Entra ID.
+
+1. Accès au Microsoft Entra Admin Center.
+2. Vérification des utilisateurs synchronisés
+   - Menu *Users*
+   - Présence des utilisateurs issus d'*AD DS*
+   - Colonne *On-premises sync enabled = yes*
+3. Vérification des groupes synchronisés
+   - Menu *Groups > All groups*
+   - Groupes issus d'*AD DS*
+   - Colonne *Source = windows Server AD*
+4. Vérification d'un groupe synchronisé
+   - Sélection du groupe *Managers*
+   - Membres visibles
+   - Modification impossible (source AD on-premises)
+
