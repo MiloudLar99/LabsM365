@@ -19,7 +19,7 @@ Créer des comptes utilisateurs directement dans Microsoft Entra ID via le porta
 (Compte administrateur)
 
 2. Accès au menu Users > All users
-   (Captura del menu)
+   ![Menu Utilisateurs - Tous les utilisateurs](screenshots/Tous-les-utilisateurs.png)
 
 Création d’un nouvel utilisateur
 
