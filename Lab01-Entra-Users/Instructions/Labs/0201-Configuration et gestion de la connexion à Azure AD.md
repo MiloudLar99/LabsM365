@@ -26,7 +26,7 @@ Ce laboratoire a pour objectif de configurer les paramètres des appareils dans 
 3. Configuration des paramètres suivants:
  - *Users may join devices to Microsoft Entra ID:* All
  - *Require MFA to register or join devices:* No
- - *Maximum number of devices per user:*20
+ - *Maximum number of devices per user:* 20
 4. Configuration des administrateurs locaux des appareils Entra join:
    - Accès à *Local administrator settings*
    - Ajout de l'utilisateur *Allan Deyoung* via le rôle Device Administrator
