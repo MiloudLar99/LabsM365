@@ -94,4 +94,7 @@ Certains appareils Windows Contoso sont actuellement connectés aux services de 
 10. Connexion au poste SEA-CL2 avec un compte administrateur du domaine.
 
 
+### Tâche 3 – Reconfiguration de la synchronisation Entra Connect (Non exécutée)
+
+
 
