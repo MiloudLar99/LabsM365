@@ -71,5 +71,27 @@ Ce laboratoire a pour objectif de configurer les paramètres des appareils dans 
 
 
 ## Exercise 2 – Configuration de Microsoft Entra Hybrid Join
-🎯 * Objectif *
+🎯 *Objectif*
+Certains appareils Windows Contoso sont actuellement connectés aux services de domaine Active Directory locaux. Pour permettre à ces appareils d'accéder de manière transparente aux services cloud, vous prévoyez d'activer la connexion hybride Entra. Vous testerez la connexion hybride Entra en reconfigurant la synchronisation Entra Connect et en testant le processus sur SEA-CL2.
+
+### Tâche 1 – Préparation de l’environnement (Non exécutée)
+1. Accès au serveur SEA-SVR1 et ouverture de Active Directory Users and Computers.
+2. Création d’une nouvelle unité d’organisation (OU) nommée Entra ID clients au niveau du domaine Contoso.com.
+3. Sélection de l’ordinateur SEA-CL2 depuis l’OU Seattle Clients.
+4. Déplacement de l’ordinateur SEA-CL2 vers l’OU Entra ID clients afin de le préparer à la synchronisation avec Microsoft Entra ID.
+5. Fermeture de la console Active Directory Users and Computers.
+
+### Tâche 2 – Configuration du Microsoft Entra Hybrid Join via Entra Connect (Non exécutée)
+1. Accès au serveur *SEA-SVR1* et lancement de Microsoft Entra Connect Sync.
+2. Sélection de l’option Configure, puis Configure device options.
+3. Connexion au tenant Microsoft Entra ID à l’aide d’un compte administrateur.
+4. Sélection de l’option Configure Hybrid Microsoft Entra ID Join.
+5. Choix des appareils Windows 10 ou ultérieurs joints au domaine comme systèmes concernés.
+6. Configuration du Service Connection Point (SCP) pour le domaine Contoso.com, avec Microsoft Entra ID comme service d’authentification.
+7. Validation de la configuration à l’aide des identifiants Enterprise Administrator.
+8. Lancement de la configuration afin d’appliquer les paramètres Hybrid Join.
+9. Redémarrage du poste SEA-CL2 pour permettre la découverte du SCP et préparer l’enregistrement Hybrid Join.
+10. Connexion au poste SEA-CL2 avec un compte administrateur du domaine.
+
+
 
