@@ -82,3 +82,47 @@ Analyser et attribuer des rôles administratifs aux utilisateurs du tenant Micro
 | Cody Godinez    | Contoso_Sales      | Office 365 E5 + EMS E5 (**direct assignment**)                                     |
 
 
+### Task 1 – Création d’un groupe de sécurité dans Microsoft Entra ID
+🎯 Objectif
+
+Créer un groupe de sécurité et y ajouter des utilisateurs via le portail Microsoft Entra.
+
+Accéder au Microsoft Entra Admin Center
+👉 Groups
+
+Sélectionner New group
+
+Configurer le groupe :
+
+Group type : Security
+
+Group name : Contoso_Managers
+
+Membership type : Assigned
+
+Ajouter les membres :
+
+Edmund Reeve
+
+Miranda Snider
+
+Sélectionner Create
+
+### Task 2 – Création d’un groupe et ajout d’un membre via PowerShell
+
+🎯 Objectif
+
+Créer un groupe de sécurité et ajouter un utilisateur à l’aide de PowerShell 7 et du module Microsoft Graph.
+
+1. Création du groupe de sécurité.
+2. (Captura de creacion de grupo de seguridad)
+3. Vérification de la créatrion du groupe.
+4. (Captura del grupo ya he creado)
+6. Définition des variables.
+   (Captura de definition des variables)
+8. Ajout de l'utilisateur au groupe
+      (Añadir usuarios al grupo)
+10. Vérification de l'appartenance au groupe.
+    (Captura de los grupos ya creados con los usuarios.)
+
+
