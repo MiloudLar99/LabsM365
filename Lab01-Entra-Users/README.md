@@ -13,23 +13,19 @@ Créer des comptes utilisateurs directement dans Microsoft Entra ID via le porta
 | Cody Godinez    | cgodinez@yourtenant.onmicrosoft.com | Pa55-w.rd! | Sales Rep          | Sales      |
 
 
-Connexion au Microsoft Entra Admin Center
+1. Connexion au Microsoft Entra Admin Center
 👉 https://entra.microsoft.com
 
 (Compte administrateur)
 
-Accès au menu Users > All users
+2. Accès au menu Users > All users
 
 Création d’un nouvel utilisateur
 
 Type : Member
-
 Mot de passe défini manuellement
-
 Renseignements : nom, fonction, département
-
 Usage location : United States
-
 Aucune affectation de groupes ou rôles
 (Configuration par défaut)
 
