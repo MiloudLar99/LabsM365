@@ -23,9 +23,13 @@ Créer des comptes utilisateurs directement dans Microsoft Entra ID via le porta
 Création d’un nouvel utilisateur
 
 Type : Member
+
 Mot de passe défini manuellement
+
 Renseignements : nom, fonction, département
+
 Usage location : United States
+
 Aucune affectation de groupes ou rôles
 (Configuration par défaut)
 
