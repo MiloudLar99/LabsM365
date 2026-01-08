@@ -38,7 +38,7 @@ Aucune affectation de groupes ou rôles
 Vérification et validation de la création
 (Captura de la verificacion de la creacion de los usuarios)
 
-## Task 2 – Création d’utilisateurs avec PowerShell (Microsoft Graph)
+## Exercise 2 – Création d’utilisateurs avec PowerShell (Microsoft Graph)
 🎯 Objectif
 
 Créer un utilisateur Microsoft Entra ID via PowerShell 7 en utilisant le module Microsoft Graph.
@@ -51,4 +51,27 @@ Créer un utilisateur Microsoft Entra ID via PowerShell 7 en utilisant le module
 (Captura con los datos del usuario Cody Godinez)
 4. Vérification
  (Captura de la verificacion de la creacion)
+
+## Exercise 2 – Attribution des rôles administratifs dans Microsoft Entra ID
+
+🎯 Objectif
+
+Analyser et attribuer des rôles administratifs aux utilisateurs du tenant Microsoft Entra ID selon leurs responsabilités.
+
+| Nom             | Responsabilités principales              | Rôle administratif            |
+|-----------------|------------------------------------------|-------------------------------|
+| Allan Deyoung   | Gestion complète du tenant               | **Global Administrator**      |
+| Edmund Reeve    | Gestion des utilisateurs et des groupes  | **User Administrator**        |
+| Miranda Snider  | Réinitialisation des mots de passe       | **Helpdesk Administrator**    |
+
+
+1. Accès à la gestion des rôles
+2. (Captura dentro de la pantalla donde puedes editar los roles)
+3. Attribution du rôle Global Administrator au Allan Deyoung
+   (Captura añadiendo el role global)
+5. Attribution du rôle User Administrator au Edmund Reeve
+6. (Captura del role añadido)
+7. Attribution du rôle Helpdesk Administrator au Miranda Snider
+
+## 
 
