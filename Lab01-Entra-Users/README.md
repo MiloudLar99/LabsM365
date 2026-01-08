@@ -1,109 +1,19 @@
-🧪 Lab 01 – Creating Users in Microsoft Entra ID
-🎯 Objetivo del laboratorio
+#Practice Lab 0101: Managing Identities in Entra ID
+WWL Tenants - Terms of Use
+If you are being provided with a tenant as a part of an instructor-led training delivery, please note that the tenant is made available for the purpose of supporting the hands-on labs in the instructor-led training.
 
-Crear cuentas de usuario en Microsoft Entra ID utilizando:
+Tenants should not be shared or used for purposes outside of hands-on labs. The tenant used in this course is a trial tenant and cannot be used or accessed after the class is over and are not eligible for extension.
 
-El portal de administración (GUI)
+Tenants must not be converted to a paid subscription. Tenants obtained as a part of this course remain the property of Microsoft Corporation and we reserve the right to obtain access and repossess at any time.
 
-PowerShell (Microsoft Graph) para automatizar la creación de usuarios
+Summary
+In this lab, you will use the Entra admin center to create and modify users, assign administrative roles, create and modify groups, and manage license assignments in Entra ID.
 
-🛠️ Pasos realizados (versión limpia y pro)
-1️⃣ Acceso al entorno Entra ID
+Exercise 1: Creating users in Entra ID
+Scenario
+You need to create user accounts in Azure AD for new employees that will start next week. New users are listed in the following table:
 
-Inicio de sesión en Microsoft Entra Admin Center
-
-Revisión de usuarios existentes en el tenant
-
-Verificación de que los usuarios no están sincronizados desde on-premises (On-premises sync = No)
-
-2️⃣ Creación de usuarios desde el portal (GUI)
-
-Creación manual de nuevos usuarios desde Users > New user
-
-Configuración de:
-
-User Principal Name (UPN)
-
-Display name
-
-Contraseña personalizada
-
-Job title
-
-Department
-
-Usage location
-
-Validación de que los usuarios se crean correctamente en el tenant
-
-🧑‍💼 Usuarios creados desde el portal:
-
-Edmund Reeve (HR)
-
-Miranda Snider (Operations)
-
-3️⃣ Preparación del entorno PowerShell
-
-Instalación de PowerShell 7
-
-Instalación del módulo Microsoft.Graph
-
-Autenticación contra Microsoft Graph con permisos administrativos
-
-4️⃣ Creación de usuarios mediante PowerShell (automatización)
-
-Creación de un perfil de contraseña reutilizable
-
-Creación de un usuario mediante el cmdlet New-MgUser
-
-Definición de atributos clave:
-
-Nombre y apellidos
-
-UPN
-
-Ubicación
-
-Departamento
-
-Puesto de trabajo
-
-Verificación de la creación del usuario mediante Get-MgUser
-
-👨‍💻 Usuario creado mediante PowerShell:
-
-Cody Godinez (Sales)
-
-5️⃣ Verificación final
-
-Comprobación de que los usuarios aparecen correctamente en Entra ID
-
-Validación del estado de las cuentas creadas
-
-📘 Referencia
-
-Lab basado en la guía oficial de Microsoft MD-102:
-https://github.com/MicrosoftLearning/MD-102T00-Microsoft-365-Endpoint-Administrator
-
-
-
-## 📸 Evidencias
-
-### Acceso y vista general de usuarios
-![Users overview](screenshots/01-entra-users-overview.png)
-
-### Creación de usuario – Edmund Reeve
-![Create user Edmund](screenshots/02-create-user-edmund-basic-info.png)
-![Edmund properties](screenshots/03-create-user-edmund-properties.png)
-![Edmund assignments](screenshots/04-create-user-edmund-assignments.png)
-![Review Edmund](screenshots/05-review-create-edmund.png)
-
-### Creación de usuario – Miranda Snider
-![Review Miranda](screenshots/06-create-user-miranda-review.png)
-
-### Verificación final
-![Users list](screenshots/07-users-list-after-creation.png)
-
-### Preparación del entorno PowerShell
-![PowerShell version](screenshots/08-powershell-version.png)
-
+Name	User Name	Password	Job title	Department
+Edmund Reeve	ereeve@yourtenant.onmicrosoft.com	Pa55-w.rd!	HR Rep	HR
+Miranda Snider	msnider@yourtenant.onmicrosoft.com	Pa55-w.rd!	Helpdesk Manager	Operations
+Cody Godinez	cgodinez@yourtenant.onmicrosoft.com	Pa55-w.rd!	Sales Rep	Sales
