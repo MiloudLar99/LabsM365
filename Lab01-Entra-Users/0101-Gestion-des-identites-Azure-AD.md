@@ -8,9 +8,9 @@ Créer des comptes utilisateurs directement dans Microsoft Entra ID via le porta
 
 | Name            | User Name                          | Password  | Job title          | Department |
 |-----------------|------------------------------------|-----------|--------------------|------------|
-| Edmund Reeve    | ereeve@yourtenant.onmicrosoft.com  | P@ssword | HR Rep             | HR         |
-| Miranda Snider  | msnider@yourtenant.onmicrosoft.com | P@ssword  | Helpdesk Manager   | Operations |
-| Cody Godinez    | cgodinez@yourtenant.onmicrosoft.com | P@ssword  | Sales Rep          | Sales      |
+| Edmund Reeve    | ereeve@yourtenant.onmicrosoft.com  | Pa55-w.rd! | HR Rep             | HR         |
+| Miranda Snider  | msnider@yourtenant.onmicrosoft.com | Pa55-w.rd! | Helpdesk Manager   | Operations |
+| Cody Godinez    | cgodinez@yourtenant.onmicrosoft.com | Pa55-w.rd!  | Sales Rep          | Sales      |
 
 
 1. Connexion au Microsoft Entra Admin Center
