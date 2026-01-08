@@ -35,7 +35,7 @@ Ce laboratoire a pour objectif de configurer les paramètres des appareils dans 
  - *Authentication methods > SMS*
  - Statut défini sur *Enabled*
 
-## Tâche 3 – Validation du Microsoft Entra Join
+### Tâche 3 – Validation du Microsoft Entra Join
 1. Sur le poste SEA-WS1, ouverture de Windows Terminal (Admin).
 2. Exécution de la commande suivante afin de vérifier l’état de jonction du poste : dsregcmd /status
 3. Vérification de la valeur AzureAdJoined : YES dans la section Device State, confirmant que le poste est bien joint à Microsoft Entra ID.
@@ -47,7 +47,7 @@ Ce laboratoire a pour objectif de configurer les paramètres des appareils dans 
    - *Join type:* Microsoft Entra joined
    - *Owner*: Joni sherman
 
-## Tâche 4 - Connexion à Windows avec un utilisateur Microsoft Entra ID
+### Tâche 4 - Connexion à Windows avec un utilisateur Microsoft Entra ID
 
 1. Sur le poste SEA-WS1, connexion à Windows avec l’utilisateur JoniS@yourtenant.onmicrosoft.com
  à l’aide du mot de passe du tenant.
@@ -60,7 +60,7 @@ Ce laboratoire a pour objectif de configurer les paramètres des appareils dans 
 6. Réception et saisie du code de vérification SMS afin de finaliser la configuration de l’authentification par téléphone.
 7. Configuration d’un code PIN Windows Hello et validation de la configuration.
 
-## Tâche 5 – Suppression d’un appareil Windows de Microsoft Entra ID
+### Tâche 5 – Suppression d’un appareil Windows de Microsoft Entra ID
 1. Sur le poste SEA-WS1, tout en étant connecté avec l’utilisateur Joni Sherman.
 2. Accès à *Settings > Accounts > Access work or school.*
 3. Sélection du compte Connected to Contoso’s Azure AD.
@@ -68,4 +68,8 @@ Ce laboratoire a pour objectif de configurer les paramètres des appareils dans 
 5. Validation de la déconnexion sur la page Disconnect from the organization.
 6. Saisie des identifiants administrateur locaux (Admin) afin d’autoriser la suppression de l’appareil.
 7. Redémarrage du poste pour finaliser la suppression de l’appareil de Microsoft Entra ID.
-   
+
+
+## Exercise 2 – Configuration de Microsoft Entra Hybrid Join
+🎯 * Objectif *
+
