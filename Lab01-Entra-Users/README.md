@@ -38,7 +38,7 @@ Aucune affectation de groupes ou rôles
 Vérification et validation de la création
 (Captura de la verificacion de la creacion de los usuarios)
 
-## Exercise 2 – Création d’utilisateurs avec PowerShell (Microsoft Graph)
+## Tâche 2 – Création d’utilisateurs avec PowerShell (Microsoft Graph)
 🎯 Objectif
 
 Créer un utilisateur Microsoft Entra ID via PowerShell 7 en utilisant le module Microsoft Graph.
@@ -73,5 +73,12 @@ Analyser et attribuer des rôles administratifs aux utilisateurs du tenant Micro
 6. (Captura del role añadido)
 7. Attribution du rôle Helpdesk Administrator au Miranda Snider
 
-## 
+## Exercise 3: Creating and managing groups and validating license assignment
+### Scénario - Attribution des groupes et des licences.
+| Name            | Member of          | License to assign                                                                 |
+|-----------------|--------------------|-----------------------------------------------------------------------------------|
+| Edmund Reeve    | Contoso_Managers   | Office 365 E5 + EMS E5 (**group-based licensing**)                                 |
+| Miranda Snider  | Contoso_Managers   | Office 365 E5 + EMS E5 (**group-based licensing**)                                 |
+| Cody Godinez    | Contoso_Sales      | Office 365 E5 + EMS E5 (**direct assignment**)                                     |
+
 
