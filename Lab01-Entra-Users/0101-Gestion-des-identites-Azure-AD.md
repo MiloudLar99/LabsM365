@@ -38,7 +38,7 @@ Aucune affectation de groupes ou rôles
 ![Menu Utilisateurs - Tous les utilisateurs](screenshots/Info-Erevee.png)
 
 Vérification et validation de la création
-(Captura de la verificacion de la creacion de los usuarios)
+![Menu Utilisateurs - Tous les utilisateurs](screenshots/All-Users.png)
 
 ## Tâche 2 – Création d’utilisateurs avec PowerShell (Microsoft Graph)
 🎯 Objectif
