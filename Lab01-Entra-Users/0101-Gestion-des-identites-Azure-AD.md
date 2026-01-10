@@ -46,13 +46,10 @@ Vérification et validation de la création
 Créer un utilisateur Microsoft Entra ID via PowerShell 7 en utilisant le module Microsoft Graph.
 
 1. Connexion au tenant
-(Captura de la conexion al Tenant)
 2. Création du profil mot de passe
-(Captura de la creacion de usuarios)
 3. Création de l’utilisateur Cody Godinez
-(Captura con los datos del usuario Cody Godinez)
 4. Vérification
- (Captura de la verificacion de la creacion)
+ ![Menu Utilisateurs - Tous les utilisateurs](screenshots/All-UsersPwsh.png)
 
 ## Exercise 2 – Attribution des rôles administratifs dans Microsoft Entra ID
 
