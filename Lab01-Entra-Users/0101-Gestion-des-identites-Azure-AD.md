@@ -65,12 +65,12 @@ Analyser et attribuer des rôles administratifs aux utilisateurs du tenant Micro
 
 
 1. Accès à la gestion des rôles
-2. (Captura dentro de la pantalla donde puedes editar los roles)
-3. Attribution du rôle Global Administrator au Allan Deyoung
-   (Captura añadiendo el role global)
-5. Attribution du rôle User Administrator au Edmund Reeve
-6. (Captura del role añadido)
-7. Attribution du rôle Helpdesk Administrator au Miranda Snider
+2. Attribution du rôle Global Administrator au Allan Deyoung
+    ![Menu Utilisateurs - Tous les utilisateurs](screenshots/Roles-Allan.png)
+4. Attribution du rôle User Administrator au Edmund Reeve
+    ![Menu Utilisateurs - Tous les utilisateurs](screenshots/Roles-Reeve.png)
+6. Attribution du rôle Helpdesk Administrator au Miranda Snider
+  ![Menu Utilisateurs - Tous les utilisateurs](screenshots/Roles-Miranda.png)
 
 ## Exercise 3: Creating and managing groups and validating license assignment
 ### Scénario - Attribution des groupes et des licences.
