@@ -114,15 +114,12 @@ Sélectionner Create
 
 Créer un groupe de sécurité et ajouter un utilisateur à l’aide de PowerShell 7 et du module Microsoft Graph.
 
-1. Création du groupe de sécurité.
-2. (Captura de creacion de grupo de seguridad)
-3. Vérification de la créatrion du groupe.
-4. (Captura del grupo ya he creado)
-6. Définition des variables.
-   (Captura de definition des variables)
-8. Ajout de l'utilisateur au groupe
-      (Añadir usuarios al grupo)
-10. Vérification de l'appartenance au groupe.
-    (Captura de los grupos ya creados con los usuarios.)
+1. Création du groupe de sécurité. 
+2. Vérification de la créatrion du groupe.
+3. Définition des variables.
+4. Ajout de l'utilisateur au groupe
+5. Vérification de l'appartenance au groupe.
+![Menu Utilisateurs - Tous les utilisateurs](screenshots/Grupos-pwsh.png)
+    
 
 
