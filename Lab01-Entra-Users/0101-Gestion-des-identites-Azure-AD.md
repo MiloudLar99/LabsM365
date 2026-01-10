@@ -106,6 +106,7 @@ Edmund Reeve
 Miranda Snider
 
 Sélectionner Create
+![Menu Utilisateurs - Tous les utilisateurs](screenshots/Contoso_Managers.png)
 
 ### Task 2 – Création d’un groupe et ajout d’un membre via PowerShell
 
