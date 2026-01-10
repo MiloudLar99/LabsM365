@@ -119,6 +119,7 @@ Créer un groupe de sécurité et ajouter un utilisateur à l’aide de PowerShe
 3. Définition des variables.
 4. Ajout de l'utilisateur au groupe
 5. Vérification de l'appartenance au groupe.
+   
 ![Menu Utilisateurs - Tous les utilisateurs](screenshots/Grupos-pwsh.png)
     
 
